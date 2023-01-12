@@ -30,7 +30,7 @@ export default class NoteSequenceGenerator {
 
   getChordNotes(chordName, tone) {
     const noteDistances = chords[chordName]
-    const currentToneIndex = tones.indexOf(tone)
+    const currentToneIndex = tones.indexOf(tone.noteName)
     const tonesStartingInSelected = tones.map(
       (_, i) => tones[(currentToneIndex + i) % tones.length]
     )
