@@ -20,3 +20,6 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## Notes
+<a href="http://www.explorethefret.com/" target="_blank">Explore The Fret</a> source code is now pointed to this repository since this fork is still active.
