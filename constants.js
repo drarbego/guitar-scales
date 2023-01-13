@@ -69,3 +69,5 @@ export const DISPLAY_MODES = {
 }
 
 export const FRET_COUNT = 13
+export const REPOSITORY_URL = "http://github.com/drarbego/guitar-scales/"
+
